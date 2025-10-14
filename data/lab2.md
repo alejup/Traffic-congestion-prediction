@@ -190,13 +190,3 @@ y = [ emission_index_next_gco2_per_km = 222 ]
 ```
 
 ---
-
-## 📝 Notes
-
-* **X:** multivariate sequence of traffic, weather, road-surface and time-context features for past *n* steps
-* **y:** selected next-step target(s); models may be trained for single- or multi-task prediction
-* Raw API / SUMO XML → cleaned → scaled
-* Provide your own **HERE / OpenWeather API keys** before running the pipeline
-* SUMO scenario outputs support testing & what-if analysis
-
----
