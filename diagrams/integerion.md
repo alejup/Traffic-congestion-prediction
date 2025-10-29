@@ -13,7 +13,11 @@
 - **TomTom:** As a secondary benchmark data provider (Traffic Index, probe data).
 - **Vilnius Traffic Management Centre (JUDU):** Potential municipal user for real-world deployment.
 
+## Use Case Diagram
 ![Use Case Diagram](use_case.png)
+## Component Diagram
 ![Component Diagram](component.png)
+## Sequence Diagram
 ![Sequence Diagram](sequence.png)
+## Deployment Diagram
 ![Deployment Diagram](deployment.png)
