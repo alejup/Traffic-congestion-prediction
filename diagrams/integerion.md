@@ -1,3 +1,7 @@
+## Task
+
+Find the company that best suits your final project solution. Draw UML diagrams ( with PlantUML and some LLM ) that show how GAI is integrated into your product that you are developing in your thesis.
+
 ## 🏢 Company Best Suited for the Solution
 
 ### **HERE Technologies** — *Primary Partner*
