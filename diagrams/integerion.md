@@ -1,5 +1,3 @@
----
-
 ## 🏢 Company Best Suited for the Solution
 
 ### **HERE Technologies** — *Primary Partner*
@@ -15,4 +13,7 @@
 - **TomTom:** As a secondary benchmark data provider (Traffic Index, probe data).
 - **Vilnius Traffic Management Centre (JUDU):** Potential municipal user for real-world deployment.
 
----
+![Use Case Diagram](diagrams/use_case.png)
+![Component Diagram](diagrams/component.png)
+![Sequence Diagram](diagrams/sequence.png)
+![Deployment Diagram](diagrams/deployment.png)
