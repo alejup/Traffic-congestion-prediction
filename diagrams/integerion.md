@@ -9,13 +9,12 @@ Find the company that best suits your final project solution. Draw UML diagrams 
 **Reasons:**
 - The platform already relies on **HERE Traffic API v7** for real-time traffic flow and jam factor data.
 - HERE provides **historical and predictive traffic datasets**, which are essential for training and benchmarking.
-- Offers **robust documentation, API reliability, and EU-region data hosting**, ensuring GDPR compliance.
 - Integration with HERE’s ecosystem (Routing, Map Tiles, Incidents) could extend this project toward a full **smart mobility decision system**.
 
 **Additional Collaboration Opportunities:**
-- **Trafi (Enghouse Mobility):** For multimodal transport and MaaS integration.
-- **TomTom:** As a secondary benchmark data provider (Traffic Index, probe data).
-- **Vilnius Traffic Management Centre (JUDU):** Potential municipal user for real-world deployment.
+- **Trafi :** Vilnius-born MaaS platform with city deployments and mobility intelligence; useful for fusing public transport demand with road traffic insights.
+- **TomTom:** alternative/backup traffic data and Traffic Index benchmarks; Lithuania (including Vilnius) is covered by TomTom traffic products.
+- **Vilnius Traffic Management Centre (JUDU):** ideal municipal stakeholder and deployment venue for decision support dashboards.
 
 ## Use Case Diagram
 ![Use Case Diagram](use_case.png)
