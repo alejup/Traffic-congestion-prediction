@@ -28,4 +28,15 @@ Find the company that best suits your final project solution. Draw UML diagrams 
 ## Task
 Conceptualize your thesis system as an end-to-end solution implemented by a single AI agent. This agent receives input data X, processes it through all stages of your pipeline (data understanding, inference, reasoning, and output generation), and returns the predicted or generated result y.
 
+Create a /prompts/ subdirectory in your project’s GitHub repository.
+All prompt examples and related documentation for your AI agent will be stored here.
+
+Develop two prompt examples that demonstrate how the AI agent interacts with your system as an end-to-end solution:
+
+Prompt 1 – Simple (zero-shot) example: Provide a single, new observation X and request the system to generate or predict the corresponding output y.
+
+Prompt 2 – Few-shot example: Extend the first prompt by including several known (X,y) pairs (from Lab 1.2) to demonstrate a few-shot prompting approach.
+
 ## end-to-end solution implemented by a single AI agent
+
+
