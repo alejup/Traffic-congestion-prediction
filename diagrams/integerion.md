@@ -24,3 +24,8 @@ Find the company that best suits your final project solution. Draw UML diagrams 
 ![Sequence Diagram](sequence.png)
 ## Deployment Diagram
 ![Deployment Diagram](deployment.png)
+
+## Task
+Conceptualize your thesis system as an end-to-end solution implemented by a single AI agent. This agent receives input data X, processes it through all stages of your pipeline (data understanding, inference, reasoning, and output generation), and returns the predicted or generated result y.
+
+## end-to-end solution implemented by a single AI agent
