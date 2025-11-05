@@ -37,6 +37,7 @@ y = { "jam_factor_next": 6.2 }
 </pre>
 
 ### New prediction request
+<pre>
 **segment_id:** "vilnius.vilniaus_g.014"
 **timestamp_utc:** "2025-11-03T16:00:00Z"
 **window:**
@@ -47,5 +48,25 @@ y = { "jam_factor_next": 6.2 }
   { "jam_factor": 6.5, "veh_speed": 9,  "precipitation": 5.0, "wind": 6.5 }
 ]
 **target:** "travel_time_next_min_per_km"
+</pre>
 
 **Return** the JSON object defined in the *Output contract*.
+
+
+#GPT5 Respose
+
+<pre>
+{
+  "segment_id": "vilnius.vilniaus_g.014",
+  "timestamp_utc_input": "2025-11-03T16:00:00Z",
+  "timestamp_utc_predicted": "2025-11-03T16:15:00Z",
+  "travel_time_next_min_per_km": 7.4,
+  "model_notes": {
+    "inferred_mapping_basis": "From examples: rising jam + worsening weather → higher next-step congestion metric; here jam rises to 6.5 with heavy precipitation and speed drop",
+    "logic": "Current ~60/9 ≈ 6.7 min/km; trend = slowing speeds (16→12→10→9) → projected ~8 km/h → ~7.5 min/km",
+    "uncertainty": "medium",
+    "context": "Severe rain + steady speed decline suggests continued slowdown"
+  }
+}
+</pre>
+
