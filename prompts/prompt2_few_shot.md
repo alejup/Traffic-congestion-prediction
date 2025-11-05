@@ -52,7 +52,6 @@ y = { "jam_factor_next": 6.2 }
 
 **Return** the JSON object defined in the *Output contract*.
 
-
 #GPT5 Respose
 
 <pre>
