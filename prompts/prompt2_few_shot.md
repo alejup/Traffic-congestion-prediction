@@ -1,3 +1,5 @@
+PILDYTI
+
 # Prompt 2 — Few-shot with known (X,y) pairs → y
 ## Role: user
 Use the examples to infer mapping X→y and then predict for the new case.
