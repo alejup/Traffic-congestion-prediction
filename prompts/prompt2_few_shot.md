@@ -4,6 +4,7 @@ Use the examples to infer mapping X→y and then predict for the new case.
 
 ### Few-shot examples (from Lab 1.2)
 **Example 1 — Rush hour (Gedimino pr.)**
+<pre>
 X = [
   { "jam_factor": 3.2, "veh_speed": 24, "temp": 14.0, "wind": 3.1, "friction": 0.87 },
   { "jam_factor": 4.1, "veh_speed": 21, "temp": 13.8, "wind": 3.3, "friction": 0.86 },
@@ -11,8 +12,10 @@ X = [
   { "jam_factor": 5.6, "veh_speed": 12, "temp": 13.0, "wind": 3.6, "friction": 0.80 }
 ]
 y = { "jam_factor_next": 6.3 }
+</pre>pre>
 
 **Example 2 — Weather deterioration (Vilniaus g.)**
+<pre>
 X = [
   { "jam_factor": 2.0, "veh_speed": 32, "temp": 25.0, "wind": 2.5, "precipitation": 0.0 },
   { "jam_factor": 2.8, "veh_speed": 28, "temp": 24.5, "wind": 3.2, "precipitation": 0.0 },
@@ -20,8 +23,10 @@ X = [
   { "jam_factor": 4.7, "veh_speed": 18, "temp": 23.2, "wind": 6.1, "precipitation": 2.8 }
 ]
 y = { "jam_factor_next": 5.5 }
+</pre>
 
 **Example 3 — Icy surface (V. Kudirkos a.)**
+<pre>
 X = [
   { "jam_factor": 3.9, "veh_speed": 20, "friction": 0.74, "road_temp": 0.5 },
   { "jam_factor": 4.4, "veh_speed": 18, "friction": 0.72, "road_temp": 0.2 },
@@ -29,6 +34,7 @@ X = [
   { "jam_factor": 5.5, "veh_speed": 12, "friction": 0.67, "road_temp": -1.0 }
 ]
 y = { "jam_factor_next": 6.2 }
+</pre>
 
 ### New prediction request
 **segment_id:** "vilnius.vilniaus_g.014"
